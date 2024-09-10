@@ -320,10 +320,17 @@ export default Vue.extend({
 });
 </script>
 
+
+
+
 <style scoped>
 #container {
   width: 100%;
   height: 100vh;
+}
+.scroller {
+  height: 100%;
+  overflow-y: auto; /* Ensure vertical scrolling is enabled */
 }
 .scroller >>> .vue-recycle-scroller__item-wrapper {
   height: 100vh;
