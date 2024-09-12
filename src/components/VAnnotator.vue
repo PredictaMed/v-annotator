@@ -328,12 +328,12 @@ export default Vue.extend({
   width: 100%;
   height: 100vh;
 }
+
 .scroller {
   height: 100vh;
-  overflow-y: scroll; /* Ensure vertical scrolling is enabled */
-}
-.scroller >>> .vue-recycle-scroller__item-wrapper {
-  height: 100vh;
   overflow-y: scroll;
+}
+
+.scroller >>> .vue-recycle-scroller__item-wrapper {
 }
 </style>
