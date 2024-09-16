@@ -329,11 +329,6 @@ export default Vue.extend({
   height: 100vh;
 }
 
-.scroller {
-  height: 100vh;
-  overflow-y: scroll;
-}
-
 .scroller >>> .vue-recycle-scroller__item-wrapper {
 }
 </style>
